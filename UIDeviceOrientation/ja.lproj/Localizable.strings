@@ -1,0 +1,28 @@
+/*
+  Localizable.strings
+  UIDeviceOrientation
+
+  Created by rabbit on 2020/05/15.
+  Copyright © 2020 rabbit. All rights reserved.
+*/
+
+"Opend" = "開始しました。";
+"Closed" = "終了しました。";
+
+"SimpleLabel" = "--- 簡易 ---";
+"DetailLabel" = "--- 詳細 ---";
+
+"Portrait" = "ポートレイト";
+"Portrait Upside Down" = "ポートレイト・アップサイド・ダウン";
+"Landscape" = "ランドスケープ";
+"Landscape Left" = "ランドスケープ・レフト";
+"Landscape Right" = "ランドスケープ・ライト";
+"Valid Interface" = "有効なインターフェイス";
+"Flat" = "フラット";
+"Face Up" = "フェイス・アップ";
+"Face Down" = "フェイス・ダウン";
+
+"Simple" = "簡易";
+"Detail" = "詳細";
+
+"Language" = "English";

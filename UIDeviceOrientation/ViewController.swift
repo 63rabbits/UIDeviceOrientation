@@ -70,20 +70,20 @@ class ViewController: UIViewController {
         // for LifeCycle
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(ViewController.activeApp),
+            selector: #selector(self.activeApp),
             name: UIApplication.didBecomeActiveNotification,
             object: nil)
 
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(ViewController.inactiveApp),
+            selector: #selector(self.inactiveApp),
             name: UIApplication.didEnterBackgroundNotification,
             object: nil)
 
         // for Device Orientation
         NotificationCenter.default.addObserver(
             self,
-            selector: #selector(ViewController.orientationChanged),
+            selector: #selector(self.orientationChanged),
             name: UIDevice.orientationDidChangeNotification,
             object: nil)
 

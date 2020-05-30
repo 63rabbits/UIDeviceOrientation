@@ -248,17 +248,17 @@ class ViewController: UIViewController {
     }
 
     func resetColor() {
-        Portrait.textColor = .black
-        Landscape.textColor = .black
-        ValidInterface.textColor = .black
-        Flat.textColor = .black
+        Portrait.textColor = .label
+        Landscape.textColor = .label
+        ValidInterface.textColor = .label
+        Flat.textColor = .label
 
-        DPortrait.textColor = .black
-        PortraitUpsideDown.textColor = .black
-        LandscapeLeft.textColor = .black
-        LandscapeRight.textColor = .black
-        FaceUp.textColor = .black
-        FaceDown.textColor = .black
+        DPortrait.textColor = .label
+        PortraitUpsideDown.textColor = .label
+        LandscapeLeft.textColor = .label
+        LandscapeRight.textColor = .label
+        FaceUp.textColor = .label
+        FaceDown.textColor = .label
     }
 
 }

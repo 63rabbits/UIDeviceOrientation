@@ -52,13 +52,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if #available(iOS 13, *) {
-            // nop
-        }
-        else {
+//        if #available(iOS 13, *) {
+//            // nop
+//        }
+//        else {
             let audioSession = AVAudioSession.sharedInstance()
             try? audioSession.setCategory(.playback)
-        }
+//        }
 
         if (languageMode != "en" && languageMode != "ja") {
             languageMode = "en"

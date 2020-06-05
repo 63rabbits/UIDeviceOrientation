@@ -77,7 +77,8 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(self.inactiveApp),
-            name: UIApplication.didEnterBackgroundNotification,
+//            name: UIApplication.didEnterBackgroundNotification,
+            name: UIApplication.willResignActiveNotification,
             object: nil)
 
         // for Device Orientation
